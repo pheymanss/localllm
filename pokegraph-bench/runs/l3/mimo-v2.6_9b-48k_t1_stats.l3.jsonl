@@ -1,0 +1,32 @@
+{"ev": "start", "passed": 0, "errors": 1, "failing": 1, "t": 0.1}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "error: timed out", "think_chars": 0, "out_chars": 0, "calls": [], "t": 455.2}
+{"ev": "reply", "test": "tests.test_given", "attempt": 0, "kind": "none", "path": null, "chars": 0, "via": "text", "t": 455.2}
+{"ev": "llm", "think": true, "temp": 0.6, "how": "ok", "think_chars": 91, "out_chars": 0, "calls": ["write_file"], "t": 502.3}
+{"ev": "reply", "test": "tests.test_given", "attempt": 1, "kind": "file", "path": "query/stats.py", "chars": 0, "via": "tool", "t": 502.3}
+{"ev": "accept", "test": "tests.test_given", "path": "query/stats.py", "passed": 22, "errors": 0, "t": 502.5}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 515.2}
+{"ev": "reply", "test": "test_calc_stat[args2-359]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 515.2}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["write_file"], "t": 549.8}
+{"ev": "reply", "test": "test_calc_stat[args2-359]", "attempt": 0, "kind": "file", "path": "query/stats.py", "chars": 0, "via": "tool", "t": 549.8}
+{"ev": "accept", "test": "test_calc_stat[args2-359]", "path": "query/stats.py", "passed": 24, "errors": 0, "t": 549.9}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["write_file"], "t": 598.4}
+{"ev": "reply", "test": "test_calc_stat[args6-236]", "attempt": 0, "kind": "file", "path": "query/stats.py", "chars": 0, "via": "tool", "t": 598.4}
+{"ev": "accept", "test": "test_calc_stat[args6-236]", "path": "query/stats.py", "passed": 26, "errors": 0, "t": 598.6}
+{"ev": "llm", "think": true, "temp": 0.6, "how": "ok", "think_chars": 4242, "out_chars": 0, "calls": ["run_python"], "t": 694.2}
+{"ev": "reply", "test": "test_calc_stat[args2-359]", "attempt": 1, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 694.2}
+{"ev": "llm", "think": true, "temp": 0.6, "how": "ok", "think_chars": 3454, "out_chars": 0, "calls": ["run_python"], "t": 826.8}
+{"ev": "reply", "test": "test_calc_stat[args2-359]", "attempt": 1, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 826.8}
+{"ev": "llm", "think": true, "temp": 0.6, "how": "ok", "think_chars": 70, "out_chars": 0, "calls": ["run_python"], "t": 865.1}
+{"ev": "reply", "test": "test_calc_stat[args2-359]", "attempt": 1, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 865.1}
+{"ev": "llm", "think": true, "temp": 0.6, "how": "ok", "think_chars": 125, "out_chars": 0, "calls": ["run_python"], "t": 914.4}
+{"ev": "reply", "test": "test_calc_stat[args2-359]", "attempt": 1, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 914.4}
+{"ev": "llm", "think": true, "temp": 0.9, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 922.8}
+{"ev": "reply", "test": "test_calc_stat[args2-359]", "attempt": 2, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 922.8}
+{"ev": "llm", "think": true, "temp": 0.9, "how": "think_cap", "think_chars": 8129, "out_chars": 0, "calls": [], "t": 1116.5}
+{"ev": "llm_forced", "how": "ok", "out_chars": 0, "t": 1161.8}
+{"ev": "reply", "test": "test_calc_stat[args2-359]", "attempt": 2, "kind": "file", "path": "query/stats.py", "chars": 0, "via": "tool", "t": 1161.8}
+{"ev": "reject", "test": "test_calc_stat[args2-359]", "path": "query/stats.py", "passed": 24, "errors": 0, "t": 1162.0}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "time_cap", "think_chars": 0, "out_chars": 0, "calls": ["write_file"], "t": 1205.6}
+{"ev": "reply", "test": "test_calc_stat[args2-359]", "attempt": 3, "kind": "file", "path": "query/stats.py", "chars": 0, "via": "tool", "t": 1205.6}
+{"ev": "reject", "test": "test_calc_stat[args2-359]", "path": "query/stats.py", "passed": 26, "errors": 0, "t": 1205.7}
+{"ev": "end", "passed": 26, "failing": 1, "steps": 7, "secs": 1206, "t": 1205.7}

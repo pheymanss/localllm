@@ -1,0 +1,15 @@
+# Rebuilt by pokegraph-bench/setup.sh
+pokegraph-bench/venv/
+pokegraph-bench/ref/knowledge/
+*.db
+*.db.wal
+# Run byproducts
+__pycache__/
+.pytest_cache/
+.junit.xml
+pokegraph-bench/ccconfig/
+pokegraph-bench/*.out
+# Full pi stream logs are huge (every token re-sent per event); summaries live in results_*.jsonl
+pokegraph-bench/runs/pi_*.log.jsonl.gz
+pokegraph-bench/runs/l1/*.log.jsonl.gz
+.DS_Store

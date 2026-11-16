@@ -1,0 +1,99 @@
+{"ev": "start", "passed": 0, "errors": 1, "failing": 1, "t": 0.1}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 15.7}
+{"ev": "reply", "test": "tests.test_given", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 15.7}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 19.1}
+{"ev": "reply", "test": "tests.test_given", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 19.1}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 22.5}
+{"ev": "reply", "test": "tests.test_given", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 22.5}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 37.3}
+{"ev": "reply", "test": "tests.test_given", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 37.3}
+{"ev": "llm", "think": true, "temp": 0.6, "how": "ok", "think_chars": 88, "out_chars": 0, "calls": ["run_python"], "t": 92.1}
+{"ev": "reply", "test": "tests.test_given", "attempt": 1, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 92.1}
+{"ev": "llm", "think": true, "temp": 0.6, "how": "ok", "think_chars": 68, "out_chars": 0, "calls": ["run_python"], "t": 105.3}
+{"ev": "reply", "test": "tests.test_given", "attempt": 1, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 105.3}
+{"ev": "llm", "think": true, "temp": 0.6, "how": "ok", "think_chars": 24, "out_chars": 0, "calls": ["write_file"], "t": 124.9}
+{"ev": "reply", "test": "tests.test_given", "attempt": 1, "kind": "file", "path": "query/type_matchup.py", "chars": 0, "via": "tool", "t": 124.9}
+{"ev": "accept", "test": "tests.test_given", "path": "query/type_matchup.py", "passed": 0, "errors": 1, "t": 125.1}
+{"ev": "llm", "think": true, "temp": 0.9, "how": "error: timed out", "think_chars": 116, "out_chars": 0, "calls": [], "t": 595.9}
+{"ev": "reply", "test": "tests.test_given", "attempt": 2, "kind": "none", "path": null, "chars": 0, "via": "text", "t": 595.9}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["write_file"], "t": 627.0}
+{"ev": "reply", "test": "tests.test_given", "attempt": 3, "kind": "none", "path": null, "chars": 0, "via": "tool", "t": 627.0}
+{"ev": "llm", "think": true, "temp": 0.6, "how": "ok", "think_chars": 42, "out_chars": 0, "calls": ["run_python"], "t": 638.7}
+{"ev": "reply", "test": "tests.test_given", "attempt": 4, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 638.7}
+{"ev": "llm", "think": true, "temp": 0.6, "how": "ok", "think_chars": 112, "out_chars": 0, "calls": ["run_python"], "t": 649.3}
+{"ev": "reply", "test": "tests.test_given", "attempt": 4, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 649.3}
+{"ev": "llm", "think": true, "temp": 0.6, "how": "ok", "think_chars": 110, "out_chars": 0, "calls": ["run_python"], "t": 663.4}
+{"ev": "reply", "test": "tests.test_given", "attempt": 4, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 663.4}
+{"ev": "llm", "think": true, "temp": 0.6, "how": "ok", "think_chars": 511, "out_chars": 0, "calls": ["run_python"], "t": 681.8}
+{"ev": "reply", "test": "tests.test_given", "attempt": 4, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 681.8}
+{"ev": "llm", "think": true, "temp": 0.9, "how": "ok", "think_chars": 2862, "out_chars": 0, "calls": ["run_python"], "t": 750.2}
+{"ev": "reply", "test": "tests.test_given", "attempt": 5, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 750.2}
+{"ev": "llm", "think": true, "temp": 0.9, "how": "ok", "think_chars": 198, "out_chars": 0, "calls": ["run_python"], "t": 763.8}
+{"ev": "reply", "test": "tests.test_given", "attempt": 5, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 763.8}
+{"ev": "llm", "think": true, "temp": 0.9, "how": "ok", "think_chars": 91, "out_chars": 0, "calls": ["run_python"], "t": 777.4}
+{"ev": "reply", "test": "tests.test_given", "attempt": 5, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 777.4}
+{"ev": "llm", "think": true, "temp": 0.9, "how": "ok", "think_chars": 415, "out_chars": 0, "calls": ["run_python"], "t": 795.1}
+{"ev": "reply", "test": "tests.test_given", "attempt": 5, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 795.1}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 829.4}
+{"ev": "reply", "test": "tests.test_given", "attempt": 6, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 829.4}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 845.0}
+{"ev": "reply", "test": "tests.test_given", "attempt": 6, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 845.0}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 863.3}
+{"ev": "reply", "test": "tests.test_given", "attempt": 6, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 863.3}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 876.6}
+{"ev": "reply", "test": "tests.test_given", "attempt": 6, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 876.6}
+{"ev": "llm", "think": true, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["write_file"], "t": 931.8}
+{"ev": "reply", "test": "tests.test_given", "attempt": 7, "kind": "file", "path": "query/coverage.py", "chars": 0, "via": "tool", "t": 931.8}
+{"ev": "accept", "test": "tests.test_given", "path": "query/coverage.py", "passed": 4, "errors": 0, "t": 932.1}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 941.0}
+{"ev": "reply", "test": "test_type_matchup[ground-heatran-4.0]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 941.0}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 946.6}
+{"ev": "reply", "test": "test_type_matchup[ground-heatran-4.0]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 946.6}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 953.1}
+{"ev": "reply", "test": "test_type_matchup[ground-heatran-4.0]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 953.1}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 959.1}
+{"ev": "reply", "test": "test_type_matchup[ground-heatran-4.0]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 959.1}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 968.4}
+{"ev": "reply", "test": "test_type_matchup[ground-skarmory-0.0]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 968.4}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 974.6}
+{"ev": "reply", "test": "test_type_matchup[ground-skarmory-0.0]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 974.6}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["write_file"], "t": 991.4}
+{"ev": "reply", "test": "test_type_matchup[ground-skarmory-0.0]", "attempt": 0, "kind": "file", "path": "query/type_matchup.py", "chars": 0, "via": "tool", "t": 991.4}
+{"ev": "reject", "test": "test_type_matchup[ground-skarmory-0.0]", "path": "query/type_matchup.py", "passed": 4, "errors": 0, "t": 991.7}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 1004.1}
+{"ev": "reply", "test": "test_type_matchup[fire-corviknight-2.0]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 1004.1}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 1013.8}
+{"ev": "reply", "test": "test_type_matchup[fire-corviknight-2.0]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 1013.8}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 1024.3}
+{"ev": "reply", "test": "test_type_matchup[fire-corviknight-2.0]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 1024.3}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 1032.4}
+{"ev": "reply", "test": "test_type_matchup[fire-corviknight-2.0]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 1032.4}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 1044.7}
+{"ev": "reply", "test": "test_type_matchup[dragon-garchomp-2.0]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 1044.7}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["write_file"], "t": 1062.1}
+{"ev": "reply", "test": "test_type_matchup[dragon-garchomp-2.0]", "attempt": 0, "kind": "file", "path": "query/type_matchup.py", "chars": 0, "via": "tool", "t": 1062.1}
+{"ev": "reject", "test": "test_type_matchup[dragon-garchomp-2.0]", "path": "query/type_matchup.py", "passed": 4, "errors": 0, "t": 1062.4}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 1075.6}
+{"ev": "reply", "test": "test_type_matchup[normal-gengar-0.0]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 1075.6}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["write_file"], "t": 1092.2}
+{"ev": "reply", "test": "test_type_matchup[normal-gengar-0.0]", "attempt": 0, "kind": "file", "path": "query/type_matchup.py", "chars": 0, "via": "tool", "t": 1092.2}
+{"ev": "reject", "test": "test_type_matchup[normal-gengar-0.0]", "path": "query/type_matchup.py", "passed": 4, "errors": 0, "t": 1092.4}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 1102.7}
+{"ev": "reply", "test": "test_type_matchup[ice-garchomp-4.0]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 1102.7}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["write_file"], "t": 1119.5}
+{"ev": "reply", "test": "test_type_matchup[ice-garchomp-4.0]", "attempt": 0, "kind": "file", "path": "query/type_matchup.py", "chars": 0, "via": "tool", "t": 1119.5}
+{"ev": "reject", "test": "test_type_matchup[ice-garchomp-4.0]", "path": "query/type_matchup.py", "passed": 4, "errors": 0, "t": 1119.8}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 1137.7}
+{"ev": "reply", "test": "test_type_matchup[fighting-kingambit-4.0]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 1137.7}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["write_file"], "t": 1155.8}
+{"ev": "reply", "test": "test_type_matchup[fighting-kingambit-4.0]", "attempt": 0, "kind": "file", "path": "query/type_matchup.py", "chars": 0, "via": "tool", "t": 1155.8}
+{"ev": "reject", "test": "test_type_matchup[fighting-kingambit-4.0]", "path": "query/type_matchup.py", "passed": 4, "errors": 0, "t": 1156.0}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 1163.8}
+{"ev": "reply", "test": "test_type_matchup[fire-scizor-4.0]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 1163.8}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 1168.7}
+{"ev": "reply", "test": "test_type_matchup[fire-scizor-4.0]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 1168.7}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 1174.0}
+{"ev": "reply", "test": "test_type_matchup[fire-scizor-4.0]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 1174.0}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 1179.4}
+{"ev": "reply", "test": "test_type_matchup[fire-scizor-4.0]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 1179.4}
+{"ev": "end", "passed": 4, "failing": 14, "steps": 16, "secs": 1179, "t": 1179.4}

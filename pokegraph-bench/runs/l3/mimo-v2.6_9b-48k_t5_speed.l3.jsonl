@@ -1,0 +1,69 @@
+{"ev": "start", "passed": 0, "errors": 1, "failing": 1, "t": 0.1}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["write_file"], "t": 75.5}
+{"ev": "reply", "test": "tests.test_given", "attempt": 0, "kind": "file", "path": "query/speed_check.py", "chars": 0, "via": "tool", "t": 75.5}
+{"ev": "accept", "test": "tests.test_given", "path": "query/speed_check.py", "passed": 2, "errors": 0, "t": 75.8}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["write_file"], "t": 153.9}
+{"ev": "reply", "test": "test_speed[scarf]", "attempt": 0, "kind": "file", "path": "query/speed_check.py", "chars": 0, "via": "tool", "t": 153.9}
+{"ev": "reject", "test": "test_speed[scarf]", "path": "query/speed_check.py", "passed": 2, "errors": 0, "t": 154.2}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python", "run_python"], "t": 185.7}
+{"ev": "reply", "test": "test_speed[par]", "attempt": 0, "kind": "none", "path": null, "chars": 0, "via": "tool", "t": 185.7}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["write_file"], "t": 256.4}
+{"ev": "reply", "test": "test_speed[tie]", "attempt": 0, "kind": "file", "path": "query/speed_check.py", "chars": 0, "via": "tool", "t": 256.4}
+{"ev": "reject", "test": "test_speed[tie]", "path": "query/speed_check.py", "passed": 2, "errors": 0, "t": 256.7}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 270.7}
+{"ev": "reply", "test": "test_speed[tie_trickroom]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 270.7}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["write_file"], "t": 329.1}
+{"ev": "reply", "test": "test_speed[tie_trickroom]", "attempt": 0, "kind": "file", "path": "query/speed_check.py", "chars": 0, "via": "tool", "t": 329.1}
+{"ev": "reject", "test": "test_speed[tie_trickroom]", "path": "query/speed_check.py", "passed": 2, "errors": 0, "t": 329.3}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["write_file"], "t": 396.2}
+{"ev": "reply", "test": "test_speed[trickroom_flip]", "attempt": 0, "kind": "file", "path": "query/speed_check.py", "chars": 0, "via": "tool", "t": 396.2}
+{"ev": "reject", "test": "test_speed[trickroom_flip]", "path": "query/speed_check.py", "passed": 2, "errors": 0, "t": 396.4}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["write_file"], "t": 462.5}
+{"ev": "reply", "test": "test_speed[ironball]", "attempt": 0, "kind": "file", "path": "query/speed_check.py", "chars": 0, "via": "tool", "t": 462.5}
+{"ev": "reject", "test": "test_speed[ironball]", "path": "query/speed_check.py", "passed": 2, "errors": 0, "t": 462.7}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["write_file"], "t": 529.2}
+{"ev": "reply", "test": "test_speed[boost_plus1]", "attempt": 0, "kind": "file", "path": "query/speed_check.py", "chars": 0, "via": "tool", "t": 529.2}
+{"ev": "reject", "test": "test_speed[boost_plus1]", "path": "query/speed_check.py", "passed": 0, "errors": 0, "t": 529.4}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 555.7}
+{"ev": "reply", "test": "test_speed[boost_minus1]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 555.7}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 563.4}
+{"ev": "reply", "test": "test_speed[boost_minus1]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 563.4}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 570.0}
+{"ev": "reply", "test": "test_speed[boost_minus1]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 570.0}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["write_file"], "t": 628.1}
+{"ev": "reply", "test": "test_speed[boost_minus1]", "attempt": 0, "kind": "file", "path": "query/speed_check.py", "chars": 0, "via": "tool", "t": 628.1}
+{"ev": "reject", "test": "test_speed[boost_minus1]", "path": "query/speed_check.py", "passed": 2, "errors": 0, "t": 628.3}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["write_file"], "t": 694.4}
+{"ev": "reply", "test": "test_speed[swiftswim_rain]", "attempt": 0, "kind": "file", "path": "query/speed_check.py", "chars": 0, "via": "tool", "t": 694.4}
+{"ev": "reject", "test": "test_speed[swiftswim_rain]", "path": "query/speed_check.py", "passed": 2, "errors": 0, "t": 694.6}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 824.4}
+{"ev": "reply", "test": "test_speed[swiftswim_noability_no_default]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 824.4}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["write_file"], "t": 878.2}
+{"ev": "reply", "test": "test_speed[swiftswim_noability_no_default]", "attempt": 0, "kind": "file", "path": "query/speed_check.py", "chars": 0, "via": "tool", "t": 878.2}
+{"ev": "reject", "test": "test_speed[swiftswim_noability_no_default]", "path": "query/speed_check.py", "passed": 2, "errors": 0, "t": 878.5}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 894.3}
+{"ev": "reply", "test": "test_speed[chlorophyll_harshsun]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 894.3}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 900.1}
+{"ev": "reply", "test": "test_speed[chlorophyll_harshsun]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 900.1}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["write_file"], "t": 953.7}
+{"ev": "reply", "test": "test_speed[chlorophyll_harshsun]", "attempt": 0, "kind": "file", "path": "query/speed_check.py", "chars": 0, "via": "tool", "t": 953.7}
+{"ev": "reject", "test": "test_speed[chlorophyll_harshsun]", "path": "query/speed_check.py", "passed": 2, "errors": 0, "t": 953.8}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 976.0}
+{"ev": "reply", "test": "test_speed[sandrush]", "attempt": 0, "kind": "none", "path": null, "chars": 0, "via": "tool", "t": 976.0}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 992.7}
+{"ev": "reply", "test": "test_speed[surgesurfer]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 992.7}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 1003.1}
+{"ev": "reply", "test": "test_speed[surgesurfer]", "attempt": 0, "kind": "probe", "path": null, "chars": 0, "via": "tool", "t": 1003.1}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["write_file"], "t": 1055.8}
+{"ev": "reply", "test": "test_speed[surgesurfer]", "attempt": 0, "kind": "file", "path": "query/speed_check.py", "chars": 0, "via": "tool", "t": 1055.8}
+{"ev": "reject", "test": "test_speed[surgesurfer]", "path": "query/speed_check.py", "passed": 2, "errors": 0, "t": 1056.0}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["write_file"], "t": 1122.4}
+{"ev": "reply", "test": "test_speed[unburden]", "attempt": 0, "kind": "file", "path": "query/speed_check.py", "chars": 0, "via": "tool", "t": 1122.4}
+{"ev": "reject", "test": "test_speed[unburden]", "path": "query/speed_check.py", "passed": 2, "errors": 0, "t": 1122.6}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 1140.5}
+{"ev": "reply", "test": "test_speed[tailwind_b]", "attempt": 0, "kind": "none", "path": null, "chars": 0, "via": "tool", "t": 1140.5}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python"], "t": 1160.5}
+{"ev": "reply", "test": "test_speed[scarf_par_tailwind_order]", "attempt": 0, "kind": "none", "path": null, "chars": 0, "via": "tool", "t": 1160.5}
+{"ev": "llm", "think": false, "temp": 0.6, "how": "ok", "think_chars": 0, "out_chars": 0, "calls": ["run_python", "run_python"], "t": 1180.9}
+{"ev": "reply", "test": "test_speed[iv0_level50]", "attempt": 0, "kind": "none", "path": null, "chars": 0, "via": "tool", "t": 1180.9}
+{"ev": "end", "passed": 2, "failing": 17, "steps": 18, "secs": 1181, "t": 1180.9}

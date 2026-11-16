@@ -1,0 +1,1 @@
+{"model": "qwen3.5:4b-mtp-q4_K_M-64k", "task": "t1_stats", "secs": 881, "hidden_pass": 20, "hidden_total": 27, "hidden_raw": "7 failed, 20 passed in 0.02s", "own_tests": "4 failed, 6 passed in 0.01s", "turns": 41, "end": "error_max_turns", "compactions": 0}
